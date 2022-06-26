@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+        <ul class="top-links">
+            <h1 class="title">My Portfolio</h1>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:30px;">Future Software Engineer</h1>
+        </div>
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1>Mental Stimulation: Hiking Vs. Software Engineer</h1>
+                <strong><small>I like to hike during my downtime. To me hiking has so many benefits. Walking/jogging through nature reminds me just how beautiful the world is; it's calming and peaceful. It's also challenging
+                    and overcoming any type of challenges comes with reward. To me reaching the peak is my reward especially depending on the type of views I get at the end of the trail. With programming language, with the
+                    exception of how taxing it can be on the body, this field would provide me with the challenges I need/want to stimulate my mind and give me the end reward satisfaction I'm looking for. As we age our body
+                    gets weaker so our physical capability drastically reduces but we don't have to let that happen with our mind. Of course, I understand sometime it's inevitable, but I want to be able to say at least I tried.
+                </p>
+            </article>
+            <br>
+            <article class="main-articles">
+                <h1>Work/Life Balance</h1>
+                <strong>The American dream consisted of buying house and having a family. More than that, what's important to me, is to spend time with my family. So this career would not give me the opportunity to do something
+                    I enjoy but also give me the time I'm looking for in order to spend it with my family. Most job just don't pay enough to have that balance even when there's 2 source of income. I'll do whatever it takes to
+                    get to where I need to be in order to have the life I want for me and my family.
+                </strong>
+                <p></p>
+            </article>
+            <br>
+            <article class="main-articles">
+                <h1>Activities</h1>
+                <strong>Besides wanting to spend time with my family, I also have my own hobbies I wish to explore while I'm young and have time. I like to travel, see new places, learn new things such as new cultures. I love
+                    water activities such as kayake, surfing (although I'm not so good at it), riding motorboats, etc. Off the water, I enjoy snowboarding (again, not so good at it lol), riding bicycle through trails, zip lining,
+                    and so on. I would also love to teach all these to my children and enjoy these activities with them as well.
+                </strong>
+                <p></p>
+            </article>
+            <br>
+            <article class="feedback">
+                <h1>Contact Me</h1>
+                <form action="mailto:johnd@gmail.com" method="POST">
+                    <label for="name">Name:</label>
+                    <br>
+                    <input id="message" type="text" id="name" placeholder="Enter Your Name">
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <br>
+                    <input id="message" for="email" id="emails" placeholder="Enter Your Email">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="message" id="body" placeholder="Your Message" rows="5"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src="/images/Me.jpeg">
+                <div id="profile-detials">
+                    <h2>Syed Hussain</h2>
+                    <ul>
+                        <ol>123 Fake St</ol>
+                        <ol>York, PA 17402</ol>
+                        <ol>(347) 891-6394</ol>
+                        <ol><a href="mailto:syedf.hussain7@gmail.com">syedf.hussain7@gmail.com</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="side-articles">
+                <h1>About Me:</h1>
+                <ul>
+                    <ol>Current Job: Customer Engineer</ol>
+                    <ol>Raised: New York, NY</ol>
+                    <ol>Birthday: July 7, 1990</ol>
+                </ul>
+            </article>
+        </div>
+        <div id="side">
+            <article>
+                <img class="activities" src="images/snowboarding.jpeg">
+            </article>
+        </div>
+    </main>
+    <footer id="footer">
+        <hr>
+        <div>
+            &copy Syed Hussain 2022
+        </div>
+    </footer>
+	<script src="index.js"></script>
+  </body>
+</html>
