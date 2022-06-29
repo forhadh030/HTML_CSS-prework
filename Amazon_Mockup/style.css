@@ -30,8 +30,10 @@ form p {
   
   /* Full-width inputs */
 input[type=email], input[type=password] {
-    width: 50%;
+    width: 100%;
     margin: 8px 0;
+    padding: 8px;
+    border-radius: 3px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -53,10 +55,9 @@ button:hover {
     opacity: 0.8;
 }
   
-  /* Add padding to containers */
+  /* creates space between the form and border */
 .container {
-    padding: 20px;
-    margin: 2px;
+    padding: 10px;
 }
   
   /* The "Forgot password" text */
@@ -110,7 +111,7 @@ fieldset {
     text-decoration: none;
 }
 
-  .copyright {
+.copyright {
     text-align: center;
   }
 
