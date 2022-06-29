@@ -1,0 +1,123 @@
+/* helps to center the form*/
+body {
+    margin-top: 150px;
+}
+
+/* helps to center the form*/
+.left-form {
+    width: 30%;
+    float: left;
+    color: white;
+}
+
+/* helps to center the form*/
+
+.center-form {
+    margin: 0 auto;
+    border-radius: 7px;
+    border: 3px solid #f1f1f1;
+    float: left;
+    width: 40%;
+}
+
+/* Modifying "Sign In" */
+form p {
+    font-size: 32px;
+    color: black;
+    position:relative;
+    margin: 0 auto;
+}
+  
+  /* Full-width inputs */
+input[type=email], input[type=password] {
+    width: 50%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+  /* Set a style for all buttons */
+button {
+    background-color: rgb(255, 162, 3, 0.6);
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+  /* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+  
+  /* Add padding to containers */
+.container {
+    padding: 20px;
+    margin: 2px;
+}
+  
+  /* The "Forgot password" text */
+span.psw {
+    float: right;
+}
+
+/* modifying "Need Help?" */
+.label {
+    list-style-position: inside;
+    margin: 20px 20px;
+}
+
+/* centers the "New To Amazon" comment */
+legend {
+    margin: 0 auto;
+  }
+
+/* clears the border for fieldset */
+fieldset {
+    clear: both;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+/* create your amazon account botton */
+.create {
+    background-color: rgb(188, 187, 187, 0.4);
+    color: black;
+    border-radius: 7px;
+}
+
+/* links bottom of screen; centered*/
+.nav {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* lines the link side by side horizontal; default is vertical */
+.nav li {
+    display: inline;
+}
+
+/* creates space between top and bottom of link*/
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    margin: 25px 10px 10px -6px;
+    text-decoration: none;
+}
+
+  .copyright {
+    text-align: center;
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+  }
